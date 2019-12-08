@@ -133,9 +133,10 @@ namespace SpaceInvaders {
 			this->Controls->Add(this->button1);
 			this->Controls->Add(this->pictureBox1);
 			this->DoubleBuffered = true;
+			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
 			this->Name = L"Inicio";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Inicio";
+			this->Text = L"Space Invaders";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
