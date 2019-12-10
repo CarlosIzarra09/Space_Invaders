@@ -127,7 +127,7 @@ public:
 			System::Drawing::Font ^fuente = gcnew System::Drawing::Font("Space Invaders", 20, System::Drawing::FontStyle::Bold);
 			System::Drawing::Font ^fuente2 = gcnew System::Drawing::Font("Space Invaders", 15, System::Drawing::FontStyle::Bold);
 			g->DrawString("Score " + puntaje.ToString(), fuente, brocha2, 10, 10);
-			g->DrawString("Nivel <" + nivel.ToString() + ">", fuente, brocha2, 1010, 10);
+			g->DrawString("Level <" + nivel.ToString() + ">", fuente, brocha2, 1010, 10);
 
 
 
